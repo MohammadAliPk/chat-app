@@ -13,6 +13,7 @@ const Login = () => {
     <div className={styles.loginPage}>
       <div className={styles.loginCard}>
         <h2>Welcome to BotoGram!</h2>
+        <span>Turn on your vpn!</span>
         <div
           className={styles.button}
           onClick={() =>
