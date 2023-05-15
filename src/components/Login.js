@@ -11,9 +11,9 @@ import styles from "./Login.module.css";
 const Login = () => {
   return (
     <div className={styles.loginPage}>
+      <span className={styles.vpn}>Turn on your vpn!</span>
       <div className={styles.loginCard}>
         <h2>Welcome to BotoGram!</h2>
-        <span>Turn on your vpn!</span>
         <div
           className={styles.button}
           onClick={() =>
