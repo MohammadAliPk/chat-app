@@ -11,7 +11,9 @@ import styles from "./Login.module.css";
 const Login = () => {
   return (
     <div className={styles.loginPage}>
-      <span className={styles.vpn}>Turn on your vpn!</span>
+      <span className={styles.notification}>
+        متاسفانه اعتبار بک اند پروژه تمام شده و پروژه در دسترس نمی باشد
+      </span>
       <div className={styles.loginCard}>
         <h2>Welcome to BotoGram!</h2>
         <div

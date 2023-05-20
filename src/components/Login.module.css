@@ -43,9 +43,10 @@
   margin-right: 10px;
 }
 
-.vpn {
+.notification {
   color: #575454;
-  margin-top: -200px;
+  margin-top: -230px;
   text-align: center;
-  margin-right: -200px;
+  margin-right: -250px;
+  width: 200px;
 }
